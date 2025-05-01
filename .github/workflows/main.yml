@@ -1,4 +1,4 @@
-name: CI/CD Pipeline
+name: Project-2
 
 on:
   push:
@@ -30,7 +30,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/project-2:latest -f Project-2/Dockerfile ./Project-2
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/portfolio:latest -f Project-2/Dockerfile ./Project-2
 
       - name: Push Docker image
-        run: docker push ${{ secrets.DOCKER_USERNAME }}/project-2:latest
+        run: docker push ${{ secrets.DOCKER_USERNAME }}/portfolio:latest
