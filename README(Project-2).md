@@ -95,38 +95,37 @@ jobs:
 
 ## 🚀 Local Deployment with Minikube
 
-1) Start Minikube:
+## 1) Start Minikube:
    
 - minikube start
   
 ![Screenshot 2025-05-01 181501](https://github.com/user-attachments/assets/55977e4a-d64e-492f-a026-fc9c1ffaaf2b)
 
-2) Apply Kubernetes pod creation:
+## 2) Apply Kubernetes pod creation:
    
 - kubectl apply -f pod.yaml
 
 ![Screenshot 2025-05-01 231348](https://github.com/user-attachments/assets/3ec6bcf5-6f6c-4057-bf93-4a5994efb4c8)
 
-3) Apply Kubernetes service creation:
+## 3) Apply Kubernetes service creation:
    
 - kubectl apply -f service.yaml
 
 ![Screenshot 2025-05-01 231412](https://github.com/user-attachments/assets/3b73470b-0a04-4ae6-bafd-cf0e022ff64e)
 
-4) Verify it
+## 4) Verify it
    
 - kubectl get pods
 - kubectl get svc
 
 ![Screenshot 2025-05-01 231430](https://github.com/user-attachments/assets/19515af4-0af4-4402-874d-af8b66bad6a5)
 
-5) Get Minikube IP & Access the App
-   
-Get Minikube IP:
+## 5) Get Minikube IP & Access the App
+## Get Minikube IP:
 
 - minikube ip
-  
-Get NodePort for your service:
+
+## Get NodePort for your service:
 
 - kubectl get svc portfolio-service
 
