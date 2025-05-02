@@ -28,6 +28,9 @@ Go to S3 Console
 
   ![Screenshot 2025-05-01 160044](https://github.com/user-attachments/assets/5f493354-bd35-447b-a6c5-1dda97b58e80)
 
+  ![Screenshot 2025-05-01 160243](https://github.com/user-attachments/assets/74c0a19c-4b5a-4666-8600-bd1486b11db4)
+
+
 📸 Screenshot 2: Static website hosting settings
 
 ![Screenshot 2025-05-01 155926](https://github.com/user-attachments/assets/469fd8b0-aa4c-4b66-a5bb-d6e68715bd40)
@@ -83,7 +86,7 @@ jobs:
 ![image](https://github.com/user-attachments/assets/ffa547f0-7c3c-4366-9ddf-5730ca948f75)
 
 
-## 🌍 Step 6: Access Your Website
+## 🌍 Step 6: Access The Website
 Visit:
 👉 https://s3-with-github-action.s3.us-east-1.amazonaws.com/index.html
 
